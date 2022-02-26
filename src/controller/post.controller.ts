@@ -63,5 +63,5 @@ export async function deletePostHandler(req: Request, res: Response) {
 
   await deletePost({ postId });
 
-  return res.sendStatus(200);
+  return res.sendStatus(204);
 }

@@ -1,6 +1,41 @@
 
 import { object, string } from "yup";
 
+/**
+ * @openapi
+ * components:
+ *   schemas:
+ *     PostInput:
+ *       type: object
+ *       required:
+ *        - title
+ *        - body
+ *       properties:
+ *         title:
+ *           type: string
+ *           default: A title for post
+ *         body:
+ *           type: string
+ *           default: text post here
+ *     PostResponse:
+ *       type: object
+ *       properties:
+ *         title:
+ *           type: string
+ *         body:
+ *           type: string
+ *         _id:
+ *           type: string
+ *         createdAt:
+ *           type: string
+ *         updatedAt:
+ *           type: string
+ *         postId:
+ *           type: string
+ *         user:
+ *           type: string
+ */
+
 const payload = {
   body: object({
     title: string().required("Title is required"),
