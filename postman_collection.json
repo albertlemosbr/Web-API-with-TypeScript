@@ -15,6 +15,15 @@
 			"response": []
 		},
 		{
+			"name": "Metrics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:9100/metrics"
+			},
+			"response": []
+		},
+		{
 			"name": "Create Session",
 			"request": {
 				"method": "POST",
