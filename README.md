@@ -26,19 +26,16 @@ git clone https://github.com/albertlemosbr/Web-API-with-TypeScript.git
 ```
 
 ### Install dependencies
-Query
 ```
 yarn install
 ```
 
 ### Running in development mode
-Query
 ```
 yarn dev
 ```
 
 ### Build TSC
-Query
 ```
 yarn build
 ```
