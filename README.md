@@ -21,6 +21,9 @@ Note: This repository includes the [postman collection for the finished API](pos
 
 ## How start
 ### Clone project
+```
+git clone https://github.com/albertlemosbr/Web-API-with-TypeScript.git
+```
 
 ### Install dependencies
 Query
