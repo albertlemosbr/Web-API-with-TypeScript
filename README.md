@@ -9,9 +9,34 @@ Note: This repository includes the [postman collection for the finished API](pos
     * HTTP methods
 
 * JWT & refresh tokens
+* Prom-client (library used to get metrics server side)
+* Crud methods in MongoDB
+
 
 ## Technologies
-* Node.js
-* MongoDB with Mongoose
-* TypeScript
-* Express.js & Express.js middleware
+* Node.js (backend language)
+* MongoDB with Mongoose (database nosql with ORM)
+* TypeScript (superset JavaScript)
+* Express.js & Express.js middleware (library used to http verbs)
+
+## How start
+### Clone project
+
+### Install dependencies
+Query
+```
+yarn install
+```
+
+### Running in development mode
+Query
+```
+yarn dev
+```
+
+### Build TSC
+Query
+```
+yarn build
+```
+
