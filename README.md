@@ -14,6 +14,9 @@ Note: This repository includes the [postman collection for the finished API](pos
 
 
 ## Technologies
+
+<a href="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"> <a/>
+
 * Node.js (backend language)
 * MongoDB with Mongoose (database nosql with ORM)
 * TypeScript (superset JavaScript)
